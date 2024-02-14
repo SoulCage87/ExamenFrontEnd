@@ -1,5 +1,30 @@
 body{
     background-color:black;
     color: white;
-    font-family:fantasy ;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer {
+    padding-bottom: 60px;
+}
+
+.container {
+    font-family: fantasy;
+}
+
+.carousel {
+    font-family: fantasy;
+}
+
+.navbar{
+    font-family: fantasy;
 }
