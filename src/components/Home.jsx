@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
           <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
@@ -45,7 +46,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
           <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
@@ -53,7 +54,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
           <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
@@ -61,7 +62,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
         </div>
@@ -75,7 +76,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
           <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
@@ -83,7 +84,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
           <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
@@ -91,7 +92,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
           <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
@@ -99,7 +100,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
               <p className="card-text">Descripcion del Personaje</p>
-              <a href="#" class="btn btn-primary">Mas Informacion</a>
+              <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
             </div>
           </div>
         </div>
@@ -117,7 +118,7 @@ const Home = () => {
                   <div className="card-body">
                     <h5 className="card-title">Personaje del Mes</h5>
                     <p className="card-text">Descripcion del Personaje</p>
-                    <a href="#" class="btn btn-primary">Mas Informacion</a>
+                    <Link to = '/informacion' href="#" class="btn btn-primary">Mas Informacion</Link>
                   </div>
                 </div>
               </div>

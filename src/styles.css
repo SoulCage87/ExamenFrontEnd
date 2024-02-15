@@ -8,7 +8,6 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    position: fixed;
     padding: 5px;
     bottom: 0;
     width: 100%;
@@ -30,7 +29,7 @@ footer {
     color: white;
 }
 
-.navbar{
+.navbar {
     font-family: fantasy;
     color: gray;
 }
