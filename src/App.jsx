@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
-import Contacto from './components/Contacto'
+import Contacto from './components/Suscribete'
 import Footer from './components/Footer'
 import './styles.css'
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
@@ -25,7 +25,7 @@ function App() {
    </Routes>
 
    </BrowserRouter>
- <Footer></Footer>
+   <Footer></Footer>
     </>
   )
 }

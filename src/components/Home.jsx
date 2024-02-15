@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
       <div className="container mt-4">
         <div className="text-center"><h2>Nuestros Personajes Favoritos</h2></div>
         <div className="row mt-3">
-          <div className="card col-4 mx-3" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -39,7 +40,7 @@ const Home = () => {
               <a href="#" class="btn btn-primary">Mas Informacion</a>
             </div>
           </div>
-          <div className="card col-4 mx-3" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -47,7 +48,7 @@ const Home = () => {
               <a href="#" class="btn btn-primary">Mas Informacion</a>
             </div>
           </div>
-          <div className="card col-4 mx-3" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -55,7 +56,7 @@ const Home = () => {
               <a href="#" class="btn btn-primary">Mas Informacion</a>
             </div>
           </div>
-          <div className="card col-4 mx-3" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -69,7 +70,7 @@ const Home = () => {
       <div className="container">
         <div className="text-center mt-4"><h2>Personajes de la semana</h2></div>
         <div className="row">
-          <div className="card col-4 mx-3 mt-4" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -77,7 +78,7 @@ const Home = () => {
               <a href="#" class="btn btn-primary">Mas Informacion</a>
             </div>
           </div>
-          <div className="card col-4 mx-3 mt-4" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -85,7 +86,7 @@ const Home = () => {
               <a href="#" class="btn btn-primary">Mas Informacion</a>
             </div>
           </div>
-          <div className="card col-4 mx-3 mt-4" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -93,7 +94,7 @@ const Home = () => {
               <a href="#" class="btn btn-primary">Mas Informacion</a>
             </div>
           </div>
-          <div className="card col-4 mx-3 mt-4" style={{ width: '18rem' }}>
+          <div className="card bg-dark col-4 mx-3 mt-4" style={{ width: '18rem' }}>
             <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="card-img-top p-1" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Personaje</h5>
@@ -107,7 +108,7 @@ const Home = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <div className="card mb-3" style={{ maxWidth: '800px' }}>
+            <div className="card bg-dark mb-3" style={{ maxWidth: '800px' }}>
               <div className="row g-0">
                 <div className="col-md-4">
                   <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png" className="img-fluid rounded-start" alt="..." />
@@ -116,7 +117,7 @@ const Home = () => {
                   <div className="card-body">
                     <h5 className="card-title">Personaje del Mes</h5>
                     <p className="card-text">Descripcion del Personaje</p>
-                    <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <a href="#" class="btn btn-primary">Mas Informacion</a>
                   </div>
                 </div>
               </div>
@@ -125,10 +126,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container mt-3">
+      <div className="container mt-2 p-2">
         <h1 className='text-center'>Quienes Somos?</h1>
         <p className='text-center'>Nullam feugiat purus non sem commodo,<br /> ac commodo eros eleifend. <br /> Fusce neque turpis, <br />commodo eget tristique et, molestie eget <br /> Donec dignissim sapien in tincidunt egestas. <br /> Suspendisse potenti. Phasellus luctus, lorem ac tempus rutrum, dolor nulla efficitur quam, in tempor odio leo imperdiet augue. <br /> Nullam at mattis elit. Nunc at maximus neque. Nunc ultrices et lectus eget volutpat. <br /> In vestibulum eget augue vitae condimentum. <br /> Sed iaculis diam sit amet arcu blandit, non condimentum dolor condimentum. <br /> Praesent orci massa, rutrum vitae erat ac, consectetur aliquam augue. <br /> Maecenas luctus massa eget ultricies aliquam. <br /> Morbi porta iaculis ipsum sed condimentum. <br /> Aenean vitae tempus diam. <br /> Aenean nibh augue, maximus non maximus in, fringilla vitae tellus.</p>
       </div>
+
+   
 
     </>
   )
