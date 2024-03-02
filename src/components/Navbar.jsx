@@ -18,6 +18,9 @@ const Navbar = () => {
         <li className="nav-item">
           <Link to="/contacto" className="nav-link">Suscribete</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/agregarActor" className="nav-link">Agrega a tu Actor</Link>
+        </li>
       </ul>
     </div>
   </div>

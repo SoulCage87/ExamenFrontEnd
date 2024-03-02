@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Contacto from './components/Suscribete'
 import Footer from './components/Footer'
 import InfoPersonaje from './components/InfoPersonaje'
+import AgregarActor from './components/AgregarActor'
 import './styles.css'
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
@@ -24,6 +25,7 @@ function App() {
     <Route path='/informacion' element = {<InfoPersonaje/>} ></Route>
     <Route  path='/' element={<Home/>}> </Route>
     <Route path = '/contacto' element = {<Contacto></Contacto>}></Route>
+    <Route path='/agregarActor' element = {<AgregarActor/>}></Route>
    </Routes>
    <Footer></Footer>
    </BrowserRouter>
